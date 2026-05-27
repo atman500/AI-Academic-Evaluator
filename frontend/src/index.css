@@ -1,0 +1,35 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+.upload-section {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+}
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #ccc;
+}
+.report-section {
+  text-align: left;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.success { color: green; }
+.error { color: red; font-weight: bold; }
+.warning { color: orange; }
