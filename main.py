@@ -6,7 +6,7 @@ import requests
 import json
 # 1. إعداد مفتاح الذكاء الاصطناعي (API Key)
 # 🚨 ضع مفتاحك الحقيقي هنا بين علامتي التنصيص
-GEMINI_API_KEY = "AIzaSyDVghw3JZsDr-9dsKcukUROtWHJIseHbK4"
+GEMINI_API_KEY = "A**********************************"
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
